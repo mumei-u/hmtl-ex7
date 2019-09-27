@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>exercice7</title>
+  </head>
+  <body>
+
+      <fieldset class="tableau1">
+        <legend>Votre identité</legend>
+          <div>
+            <label for="nominput">1. Nom :</label>
+            <input type="text" name="Nom" type="name" id="nominput" placeholder="Nom de famille">
+          </div>
+
+          <div>
+            <label for="prenominput">2. Prénom</label>
+            <input type="text" name="Prénom" type="firstname" id="prenominput" placeholder="Prénom">
+          </div>
+          <div>
+
+          </div>
+          <div>
+            <label for="mailinput">3. Adresse mail</label>
+            <input type="text" name="mail" type="email" id="mailinput" placeholder="Adresse mail">
+          </div>
+
+      </fieldset class="tableau1">
+
+        <fieldset class="tableau2">
+          <legend>Adresse de livraison</legend>
+          <div>
+            <label for="adresseinpute">Adresse : </label>
+            <textarea name="Adresse" cols="15" rows="8" id="adresseinpute" placeholder="cilquez ici pour écrire"></textarea>
+          </div>
+
+          <div>
+            <label for="codepostalinpute">2. Code postal : </label>
+            <input type="text" name="code-postal" id="codepostalinpute" placeholder="ex: 60200">
+
+          </div>
+          <div>
+            <label for="villeinpute">3. Ville : </label>
+            <input type="text" name="Ville" id="villeinpute" placeholder="Ville">
+          </div>
+        </fieldset class="tableau2">
+
+          <fieldset class="tableau3">
+            <legend>Informations de réglement</legend>
+              <label>Type de carte bancaire :</label>
+                <div>
+                  <input type="radio" name="Type de carte bancaire" id="Visa" checked="checked">
+                  <label for="visa">Visa</label>
+                </div>
+
+                <div>
+                  <input type="radio" name="Type de carte bancaire" id="Mastercard" checked="checked">
+                  <label for="mastercard">Mastercard</label>
+                </div>
+
+                <div>
+                  <label for="carteinpute">Numéro de carte :</label>
+                  <input type="number required" name="Numéro de carte" id="carteinpute" placeholder="Numéro de carte">
+                </div>
+
+                <div>
+                  <label for="securiteinpute">Code de sécurité :</label>
+                  <input type="number required" name="Code de sécurité" id="securiteinpute" placeholder="Code de sécurité">
+                </div>
+                <div>
+                  <label for="titulaireinpute">Nom du titulaire :</label>
+                  <input type="name" name="nom du titulaire" id="titulaireinpute" placeholder="Nom du titulaire">
+                </div>
+          </fieldset class="tableau3 class="tableau2"">
+          <input type="button" name="j'achète" value="j'achète">
+
+
+  </body>
+
+</html>
